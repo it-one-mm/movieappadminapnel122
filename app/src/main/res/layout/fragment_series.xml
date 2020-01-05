@@ -17,6 +17,8 @@
             android:id="@+id/search_moive"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_series"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_alignParentBottom="true"
