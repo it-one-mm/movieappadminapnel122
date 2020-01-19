@@ -53,6 +53,7 @@
             android:textColor="@color/infoColor"
             android:layout_marginBottom="10dp"/>
         <Spinner
+            style="@style/SpinnerTheme"
             android:id="@+id/series_category"
             android:layout_width="match_parent"
             android:layout_height="@dimen/moviesheight"
@@ -88,6 +89,7 @@
                 android:layout_margin="30dp"
                 />
             <Button
+            android:id="@+id/cancel_series"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/moviesheight"
                 android:text="Cancel"

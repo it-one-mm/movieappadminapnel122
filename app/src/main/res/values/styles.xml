@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/colorwhite</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
 </resources>
